@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ErunApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="exit">آیا می خواهید از برنامه خارج شوید ؟</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="title_activity_activity_notifications">ActivityNotifications</string>
+    <string name="notification">پیام ها</string>
+    <string name="existAccount">حساب کاربری دارم</string>
+    <string name="register">ثبت نام</string>
+    <string name="registerLater">بعدا ثبت نام میکنم</string>
+    <string name="warningForRegister">دوست خوبم\n\nشما ثبت نام خودتون رو انجام ندادید.\n\nبرای استفاده بهتر و دسترسی به امکانات مناسب تر\n\nباید به کمک بزگترها،ثبت نام کنید.\n\n\nمتشکرم</string>
+
+</resources>
