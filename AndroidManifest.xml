@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="epeyk.mobile.erunappgdx.ActivitySplash"
+            android:name=".ActivitySplash"
             android:label="@string/app_name"
             android:screenOrientation="landscape"
             android:stateNotNeeded="true"
@@ -29,7 +29,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="epeyk.mobile.erunappgdx.ActivityMain"
+            android:name=".ActivityMain"
             android:label="@string/app_name"
             android:screenOrientation="landscape" >
         </activity>

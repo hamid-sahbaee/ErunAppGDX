@@ -53,7 +53,6 @@ public class ActivityMain extends ActivityPageBase {
 		if (jsObject != null && jsObject.has("move") && jsObject.optBoolean("move")) {
 			float speed = jsObject.has("speed") ? Float.valueOf(jsObject.optString("speed")) : 0;
 			String dir = jsObject.has("dir") ? jsObject.optString("dir") : "";
-
 		}
 		viewBaseGDX.addLayer(layer);
 	}

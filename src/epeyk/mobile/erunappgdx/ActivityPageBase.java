@@ -20,7 +20,7 @@ import epeyk.mobile.erunbase.component.store.ProductInfo;
 public class ActivityPageBase extends PageBaseGDX {
 	public static StringBuffer SESSIONID;
 	private Class<?> activityClass;
-	int scrollWidth = 20000;
+	private int scrollWidth = 20000;
 	protected static boolean runpattern = false;
 	final int REQUEST_FOR_CHILD_ID = 50;
 
@@ -32,7 +32,7 @@ public class ActivityPageBase extends PageBaseGDX {
 	@Override
 	public void onReadPageInfo(PageInfo pageInfo) {
 		super.onReadPageInfo(pageInfo);
-		// [@2d]TODO Scroll width for parallax
+		// TODO Scroll width for parallax
 		interfaces.setStore(getIStoreView());
 		interfaces.setINotification(getINotificationView());
 	}
@@ -145,7 +145,7 @@ public class ActivityPageBase extends PageBaseGDX {
 	@Override
 	protected void initialCurrentPage(Class<?> activityClass, Bundle extras) throws JSONException {
 		this.activityClass = activityClass;
-		// [@2d]TODO close button
+		// TODO close button
 
 		super.initialCurrentPage(activityClass, extras);
 		/*
